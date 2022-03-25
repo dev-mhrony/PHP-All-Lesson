@@ -22,14 +22,26 @@
 
 
 
+      echo gettype ($monitor_pice);             // Data type = "integer"
+      echo gettype ($name);                     // Data Type = "String"
+      echo gettype ($monitor_status_new);       // Data Type = "boolean" 
+      echo gettype ($monitor_size);             // Data Type = "duble/float"
+      echo gettype ($cable_status_vga);         // Data Type = "boolean"  
+      echo gettype ($amount);                   // Date Type = "integer" 
 
- echo "I have <b> {$monitor_pice}  {$monitor_status_new} {$name}s </b>. I want to sell it on my own website.That’s why I should create a product upload form on my website. then upload my product with specification and available quantity <br>
+
+
+  echo " I have <b> {$monitor_pice}  {$monitor_status_new} {$name}s </b>. I want to sell it on my own website.That’s why I should create a product upload form on my website. then upload my product with specification and available quantity <br>
 
       My monitors have a <b> {$monitor_size} </b> inch display. My monitor’s VGA cable status,<b> {$cable_status_vga} </b> . I will sell it for {$amount} tk."      
 
 
       // Check This image link = https://drive.google.com/file/d/1kk40R1ZW76HgSDtZnqI2o0nJwHObGe7W/view?usp=sharing
 
+
+
+
+     
 
 
 
