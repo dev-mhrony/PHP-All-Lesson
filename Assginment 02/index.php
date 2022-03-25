@@ -10,7 +10,13 @@
 </head>
     <body>
         
+
+    // Statr PHP Code
+
     <?php 
+
+
+    
 
 // I have three old hp monitors, not new. I want to sell it on my own website.
 //  That’s why I should create a product upload form on my website, 
@@ -56,6 +62,10 @@
 
 
       ?>
+
+
+            // End PHP Code
+
 
     </body>
 </html>
