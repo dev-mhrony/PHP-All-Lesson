@@ -1,6 +1,16 @@
 
-<?php 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 02</title>
+</head>
+    <body>
+        
+    <?php 
 
 // I have three old hp monitors, not new. I want to sell it on my own website.
 //  That’s why I should create a product upload form on my website, 
@@ -22,13 +32,14 @@
 
 
 
-      echo gettype ($monitor_pice);             // Data type = "integer"
-      echo gettype ($name);                     // Data Type = "String"
-      echo gettype ($monitor_status_new);       // Data Type = "boolean" 
-      echo gettype ($monitor_size);             // Data Type = "duble/float"
-      echo gettype ($cable_status_vga);         // Data Type = "boolean"  
-      echo gettype ($amount);                   // Date Type = "integer" 
+      echo gettype ($monitor_pice). "</br>" ;             // Data type = "integer"
+      echo gettype ($name). "</br>" ;                     // Data Type = "String"
+      echo gettype ($monitor_status_new) . "</br>";       // Data Type = "boolean" 
+      echo gettype ($monitor_size). "</br>";              // Data Type = "duble/float"
+      echo gettype ($cable_status_vga)."</br>";           // Data Type = "boolean"  
+      echo gettype ($amount). "</br>";                    // Date Type = "integer" 
 
+     
 
 
   echo " I have <b> {$monitor_pice}  {$monitor_status_new} {$name}s </b>. I want to sell it on my own website.That’s why I should create a product upload form on my website. then upload my product with specification and available quantity <br>
@@ -44,7 +55,9 @@
      
 
 
+      ?>
+
+    </body>
+</html>
 
 
-
-?>
